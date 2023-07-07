@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduFord</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a>
+                </li>
+                <li><a href="about.html">ABOUT</a>
+                </li>
+                <li><a href="courses.html">COURSE</a>
+                </li>
+                <li><a href="blog.html">BLOG</a>
+                </li>
+                <li><a href="contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+<h1>Our Certificate and Online Programs For 2021</h1>
+        
+    </section>
+
+<!-- blog page content -->
+
+<section class="blog-content">
+<div class="row">
+    <div class="blog-left">
+        <img src="images/certificate.jpg" alt="">
+        <h2>Our Certficate And Online Programs for 2021</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem mollitia quasi ab aspernatur quibusdam, facere iusto natus debitis neque impedit, distinctio commodi fuga dicta error eum animi voluptatibus dolore id <br></p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error est deleniti at, dolor commodi, beatae quam libero nam alias earum explicabo facere non provident quasi harum perferendis tempore, hic iste?</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa velit illum laboriosam iusto? Sapiente esse fugit cumque repellat nisi distinctio, at magni consequuntur rem quisquam officiis quasi magnam molestias vero?</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem vero inventore tempore optio, consequatur expedita illum perferendis iusto dolorem qui.</p>
+
+<div class="comment-box">
+    <h3>Leave a comment</h3>
+    <form class="comment-form">
+        <input type="text" placeholder="Enter name">
+        <input type="email" placeholder="Enter email">
+        <textarea rows="5" placeholder="Your comment"></textarea>
+        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+    </form>
+</div>
+
+    </div>
+    <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+        </div>
+        <div>
+            <span>Data science</span>
+            <span>28</span>
+        </div>
+        <div>
+            <span>Machine learning</span>
+            <span>15</span>
+        </div>
+        <div>
+            <span>Computer Science</span>
+            <span>34</span>
+        </div>
+        <div>
+            <span>Auto CAD</span>
+            <span>42</span>
+        </div>
+        <div>
+            <span>Journalism</span>
+            <span>22</span>
+        </div>
+    </div>
+    
+</div>
+
+
+</section>
+
+    <!-- javascript for toggle menu -->
+<script>
+    var navLinks=document.getElementById("navLinks");
+
+    function showMenu()
+    {
+        navLinks.style.right="0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right="-200px";
+    }
+</script>
+
+</body>
+</html>
